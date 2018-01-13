@@ -1,7 +1,7 @@
 import React from 'react';
 
-const MyAwesomeReactComponent = () => (
+const homepageContainer = () => (
   
 );
 
-export default MyAwesomeReactComponent;
+export default homepageContainer;
