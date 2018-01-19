@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import AppBarExampleIcon from './appBar';
+import AppBarExampleIcon from './AppBar';
 
-class homepageContainer extends Component {
+class HomepageContainer extends Component {
   state = {
     result: {},
     search: ""
   };
 
 render() {
-	return (<div> {AppBarExampleIcon} </div>)
+	return (<AppBarExampleIcon/>)
 }
 }
 
 
-export default homepageContainer;
+export default HomepageContainer;

@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import homepageContainer from './components/homepageContainer';
+import HomepageContainer from './components/HomepageContainer';
 
 const App = () => (
   <MuiThemeProvider>
-    <homepageContainer />
+    <HomepageContainer />
   </MuiThemeProvider>
 );
 
 ReactDOM.render(
-  homepageContainer, <App />,
-  document.getElementById('app')
+  <App />,
+  document.getElementById('root')
 );
 
 export default App;
