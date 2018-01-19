@@ -10,6 +10,8 @@ const App = () => (
 );
 
 ReactDOM.render(
-  <App />,
+  homepageContainer, <App />,
   document.getElementById('app')
 );
+
+export default App;
